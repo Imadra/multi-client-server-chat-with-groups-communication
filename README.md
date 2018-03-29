@@ -7,7 +7,7 @@ When client connects to the server it should send: server hello 'username' witho
 - Server offers several pre-existing groups for clients to join. After connection was established, client can request the list of available groups: server groupslist.
 Server replies with group names and members of each group who are currently online:
 <groupname1>: <username1>, <username2> | <groupname2>:
-<username3>, <username4>.
+<username3>; <username4>.
 
 - Client can join one of the groups if it has not already: server join <groupname>
 
