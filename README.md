@@ -2,7 +2,7 @@
 
 Multi threaded client-server chat written in java. All the communication between clients goes through the server only. Client can join groups to communicate only with the members of group.
 
-When client connects to the server it should send: server hello <username>. Server replies back: hi <username>. Usernames are reserved during joining, so the server should handle conflicts appropriately.
+When client connects to the server it should send: server hello 'username' without quotes for username. Server replies back: hi 'username'. Usernames are reserved during joining, so the server should handle conflicts appropriately.
   
 - Server offers several pre-existing groups for clients to join. After connection was established, client can request the list of available groups: server groupslist.
 Server replies with group names and members of each group who are currently online:
